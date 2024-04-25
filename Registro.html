@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+    <center>
+        <nav class="menu">
+            <a class="elementosMenu" href="Inicio.html">Inicio</a>
+            <a class="elementosMenu" href="Nosotros.html">Nosotros</a>
+            <a class="elementosMenu" href="Servicios.html">Servicios</a>
+            <a class="elementosMenu" href="Registro.html">Registro</a>
+            <a class="elementosMenu" href="Contacto.html">Contacto</a>
+        </nav>
+    </center>
+
+<form class="FormDatos" action="Resultado.html" method="post" id="Formulario" >
+
+   <h1 class="titulo">Pagina de Registro</h1>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="inputs">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="inputs">
+
+        <label for="Genero">Genero:</label>
+        <label for="Hombre">Hombre</label>
+        <input type="radio" name="Hombre" id="Hombre" class="Genero">
+        <label for="Mujer">Mujer</label>
+        <input type="radio" name="Mujer" id="Mujer" class="Genero">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="inputs">
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" class="inputs">
+
+        <label for="direccion">Direccion:</label>
+
+        <textarea class="inputs" name="label" id="direccion" cols="30" rows="10"></textarea>
+        
+        <input type="submit" value="Subir" class="enviar"> 
+</form>
+</body>
+
+</html>
